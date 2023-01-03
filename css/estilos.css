@@ -1,5 +1,3 @@
-/* font-family: 'Red Hat Display', sans-serif; */
-
 :root {
   /* Colors */
 
@@ -11,7 +9,6 @@
   --Desaturated-blue: hsl(224, 23%, 55%);
   --Dark-blue: hsl(223, 47%, 23%);
 }
-
 body {
-  background-color: black;
+  font-family: "Red Hat Display", sans-serif;
 }
