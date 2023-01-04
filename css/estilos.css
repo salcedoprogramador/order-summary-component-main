@@ -1,6 +1,5 @@
 :root {
   /* Colors */
-
   /* Primary */
   --Pale-blue: hsl(225, 100%, 94%);
   --Bright-blue: hsl(245, 75%, 52%);
@@ -11,4 +10,109 @@
 }
 body {
   font-family: "Red Hat Display", sans-serif;
+  background-color: var(--Pale-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card__container {
+  width: 100%;
+  max-width: 20.44em;
+  overflow: hidden;
+  border-radius: 1.3em;
+  margin: 1em;
+  background-color: var(--Very-pale-blue);
+}
+.card__image img {
+  width: 100%;
+  height: 9.1em;
+}
+.card__title {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.68em;
+}
+.card__title h1 {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.card__description {
+  padding: 0 2.7em;
+  color: var(--Desaturated-blue);
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.7em;
+}
+.card__info__price {
+  display: flex;
+  align-items: center;
+  background-color: hsla(224, 23%, 55%, 0.038);
+  justify-content: space-around;
+  margin: 0 2em;
+  margin-top: 1.3em;
+  border-radius: 0.8em;
+  height: 4.5em;
+  gap: 1em;
+}
+.icon {
+  width: 2.7em;
+}
+.icon img {
+  width: 100%;
+}
+.plan {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.5rem;
+  height: 100%;
+}
+.plan p {
+  font-size: 0.8rem;
+  font-weight: 900;
+  margin-top: 1.7em;
+}
+.plan span {
+  color: var(--Desaturated-blue);
+  font-size: 0.78rem;
+}
+.change {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.change a {
+  color: var(--Bright-blue);
+}
+.card__button {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 16.3em;
+  margin: 0 auto;
+  margin-top: 1.3em;
+}
+
+.card__button button {
+  background-color: var(--Bright-blue);
+  width: 100%;
+  height: 3.3em;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0.7em;
+  color: var(--Pale-blue);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.card__cancel {
+  padding: 1.7em 0;
+  text-align: center;
+  width: 100%;
+}
+.card__cancel a {
+  text-decoration: none;
+  color: var(--Desaturated-blue);
+  font-weight: 700;
+  font-size: 0.9rem;
 }
