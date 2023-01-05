@@ -116,3 +116,72 @@ body {
   font-weight: 700;
   font-size: 0.9rem;
 }
+
+@media (min-width: 500px) {
+  .card__container {
+    width: 28.12em;
+    max-width: 100%;
+  }
+  .card__image img {
+    height: 12.5em;
+  }
+  .card__title {
+    margin-top: 2.5em;
+  }
+  .card__title h1 {
+    font-size: 1.7rem;
+  }
+  .card__description {
+    padding: 0 4.5em;
+    font-size: 1rem;
+    line-height: 1.5em;
+  }
+  .card__info__price {
+    height: 5.7em;
+    margin-top: 0em;
+    width: 100%;
+    max-width: 19.9em;
+    margin: 0 auto;
+  }
+  .icon {
+    width: 3em;
+    margin-left: 1.4em;
+  }
+  .plan p {
+    font-size: 0.98rem;
+    padding-right: 3em;
+  }
+  .plan span {
+    font-size: 1rem;
+  }
+  .change {
+    font-size: 0.9rem;
+    margin-right: 1.4em;
+  }
+  .card__button {
+    width: 100%;
+    max-width: 20.1em;
+    margin-top: 1.5em;
+  }
+  .card__button button {
+    font-size: 0.9rem;
+  }
+  .card__cancel {
+    padding: 1.7em 0 2.9em 0;
+  }
+  .card__cancel a {
+    font-weight: 900;
+  }
+}
+@media (hover: hover) {
+  .card__button:hover button {
+    background-color: rgba(0, 0, 255, 0.418);
+    cursor: pointer;
+  }
+  .card__cancel a:hover {
+    color: var(--Dark-blue);
+  }
+  .change a:hover {
+    color: rgba(0, 0, 255, 0.512);
+  }
+}
